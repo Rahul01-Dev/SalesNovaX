@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 const Home = ()=>{
     return (
              <div className="min-h-screen bg-slate-900 text-white font-sans selection:bg-indigo-500 selection:text-white">
@@ -7,10 +6,10 @@ const Home = ()=>{
             <header className="fixed w-full top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/5">
                 <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/20">
+                        <div className="w-8 h-8 rounded-lg bg-linear-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/20">
                             SN
                         </div>
-                        <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
+                        <span className="text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-white to-slate-400">
                             SalesNovaX
                         </span>
                     </div>
@@ -19,7 +18,7 @@ const Home = ()=>{
                             Log In
                         </Link>
                         <Link
-                            to="/register"
+                            to="./register"
                             className="bg-white text-slate-900 px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-indigo-50 transition-all transform hover:scale-105 shadow-xl shadow-white/10"
                         >
                             Get Started
@@ -31,7 +30,7 @@ const Home = ()=>{
             {/* Hero Section */}
             <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
                 {/* Background Glow */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-indigo-500/20 blur-[120px] rounded-full pointer-events-none" />
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-125 bg-indigo-500/20 blur-[120px] rounded-full pointer-events-none" />
 
                 <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-8 animate-fade-in-up">
@@ -40,7 +39,7 @@ const Home = ()=>{
                     </div>
                     <h1 className="text-5xl lg:text-7xl font-bold tracking-tight mb-8 leading-tight">
                         Close deals faster with <br />
-                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
+                        <span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-400 via-purple-400 to-pink-400">
                             Intelligent Automation
                         </span>
                     </h1>
@@ -51,7 +50,7 @@ const Home = ()=>{
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link
                             to="/register"
-                            className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold text-lg hover:shadow-lg hover:shadow-indigo-500/30 transition-all transform hover:-translate-y-1"
+                            className="w-full sm:w-auto px-8 py-4 rounded-full bg-linear-to-r from-indigo-600 to-purple-600 text-white font-bold text-lg hover:shadow-lg hover:shadow-indigo-500/30 transition-all transform hover:-translate-y-1"
                         >
                             Start Free Trial
                         </Link>
@@ -110,7 +109,7 @@ const Home = ()=>{
 
             {/* Simple CTA */}
             <section className="py-24 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-b from-slate-900 to-indigo-950/20" />
+                <div className="absolute inset-0 bg-linear-to-b from-slate-900 to-indigo-950/20" />
                 <div className="max-w-4xl mx-auto px-6 relative z-10 text-center">
                     <h2 className="text-4xl font-bold mb-6">Ready to streamline your sales?</h2>
                     <p className="text-slate-400 mb-10 text-lg">
