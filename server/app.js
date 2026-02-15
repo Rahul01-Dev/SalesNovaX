@@ -14,7 +14,11 @@ app.use(express.static("public"))
 
 //Routes Import 
 
+import authRoutes from './routes/authRoutes.js'
+
 
 //routes Declare
+
+app.use('/api/v1/auth',authRoutes);
 
 export { app }
