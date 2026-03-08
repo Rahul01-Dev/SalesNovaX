@@ -15,10 +15,15 @@ app.use(express.static("public"))
 //Routes Import 
 
 import authRoutes from './routes/authRoutes.js'
+import loggerRoutes from './routes/loggerRoutes.js'
+import notificationRoutes from './routes/notificationRoutes.js'
 
 
 //routes Declare
 
 app.use('/api/v1/auth',authRoutes);
+app.use('/api/v1/logs',loggerRoutes);
+app.use('/api/v1/notifications',notificationRoutes);
+
 
 export { app }
